@@ -1,0 +1,23 @@
+# Inputs
+
+[[input.tcp]]
+port="5001"
+
+[[input.udp]]
+port="1053"
+
+[[input.http]]
+port="80"
+
+# Outputs
+
+[[output.tcp]]
+hostname="127.0.0.1"
+port="5001"
+
+[[output.tcp]]
+hostname="127.0.0.1"
+port="5001"
+
+[[output.http]]
+uri="https://webhook.site/800bff50-28eb-4a94-9050-85d15ceeb1e1"

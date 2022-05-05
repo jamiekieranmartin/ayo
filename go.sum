@@ -1,0 +1,4 @@
+github.com/jamiekieranmartin/parsnip v0.0.3 h1:L+IW7nebaKLpdAVamCjsTr5RKzGMKd+FxjmV8tiNE58=
+github.com/jamiekieranmartin/parsnip v0.0.3/go.mod h1:U9MNGu13gcDgkte1UP4VOgXf+ZJneVqhXVE2dcq5rZ0=
+github.com/pelletier/go-toml v1.9.5 h1:4yBQzkHv+7BHq2PQUZF3Mx0IYxG7LsP222s7Agd3ve8=
+github.com/pelletier/go-toml v1.9.5/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCkoOuaOx1Y+c=

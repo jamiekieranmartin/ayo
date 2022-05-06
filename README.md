@@ -7,10 +7,10 @@ ayo is a minimal input/output proxy for common interfaces. It manages connection
 ## Install
 
 ```bash
-go get github.com/jamiekieranmartin/tryp
+go get github.com/jamiekieranmartin/ayo
 ```
 
-Otherwise you can download the binary from [Releases](https://github.com/jamiekieranmartin/tryp/releases)
+Otherwise you can download the binary from [Releases](https://github.com/jamiekieranmartin/ayo/releases)
 
 ## Usage
 

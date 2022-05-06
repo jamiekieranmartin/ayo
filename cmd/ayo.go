@@ -7,19 +7,19 @@ import (
 	"github.com/jamiekieranmartin/ayo"
 )
 
-const cliVersion = "0.0.2"
+const cliVersion = "0.0.3"
 
 const helpMessage = `
 ayo is a minimal input/output proxy for common interfaces.
 	ayo v%s
 
-Usage
+Usage.
 	ayo
 
-Configurable via TOML
+Configurable via TOML.
 	ayo -config "./my-config.toml"
 
-TOML Configuration
+TOML Configuration.
 
 # Inputs
 

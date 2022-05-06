@@ -4,6 +4,38 @@ Spin up an io interface in a pinch.
 
 ayo is a minimal input/output proxy for common interfaces. It manages connections for inputs and relays messages to outputs in a "turnout" concurrency pattern.
 
+## Install
+
+```bash
+go get github.com/jamiekieranmartin/tryp
+```
+
+Otherwise you can download the binary from [Releases](https://github.com/jamiekieranmartin/tryp/releases)
+
+## Usage
+
+### CLI
+
+```bash
+ayo -config "./config.toml"
+```
+
+### Golang SDK
+
+```go
+// make new ayo instance
+io, err := ayo.New(*config)
+if err != nil {
+	panic(err)
+}
+
+// listen and serve io interfaces
+err = io.ListenAndServe()
+if err != nil {
+	panic(err)
+}
+```
+
 ## CLI flags
 
 ### `-config`
